@@ -1,25 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Table1 from './09-07-2024.js/task1';
+import CustomCard from './09-07-2024.js/task2';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+    <Table1/>
+    <CustomCard/>
+  </div>
+  )
 }
-
 export default App;
